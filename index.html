@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automotora Genérica - Los mejores autos al mejor precio">
+    <meta name="keywords" content="Automotora, Autos, Venta de Autos, Ford, Toyota, Chevrolet">
+    <meta name="author" content="Automotora Genérica">
+    <title>Automotora Genérica</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/styles/style.css" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXX-X');
+    </script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Automotora</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Autos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carCarousel" class="carousel slide mt-4" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/2018_Ford_Mustang_GT_5.0.jpg" class="d-block w-100" alt="Ford Mustang GT 5.0">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ford Mustang GT 5.0</h5>
+                    <p>Potencia y estilo en un solo auto.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/alergias.jpg" class="d-block w-100" alt="Toyota Corolla">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Toyota Corolla</h5>
+                    <p>Confiabilidad y eficiencia en cada viaje.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/hennessey-chevrolet-camaro-zl1-exorcist-final-edition.jpg" class="d-block w-100" alt="Hennessey Chevrolet Camaro ZL1 Exorcist">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hennessey Chevrolet Camaro ZL1 Exorcist</h5>
+                    <p>Pura adrenalina en cada kilómetro.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Home Section -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h5>Noticias</h5>
+                <div class="list-group">
+                    <!-- Example news item -->
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <h5 class="mb-1">Nuevo Chevrolet Camaro en la tienda</h5>
+                        <p class="mb-1">Ven a conocer el nuevo modelo 2024 de este increíble auto.</p>
+                        <small>Fecha: 01/08/2024</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <h5 class="mb-1">Oferta especial en Toyota Corolla</h5>
+                        <p class="mb-1">Descuentos hasta el 20% en modelos seleccionados.</p>
+                        <small>Fecha: 15/08/2024</small>
+                    </a>
+                    <!-- Repeat for more news -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Autos Recientes</h5>
+                <div class="row">
+                    <!-- Example car card -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">Toyota Corolla</div>
+                            <div class="card-body">
+                                <img src="assets/img/2018_Ford_Mustang_GT_5.0.jpg" class="card-img-top" alt="Toyota Corolla">
+                                <p class="card-text">Año: 2020</p>
+                                <p class="card-text">Precio: $20,000</p>
+                                <a href="#" class="btn btn-danger">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for more cars -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search and Filters -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar autos" aria-label="Search">
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <h5>Filtros</h5>
+                <!-- Example filters -->
+                <div class="form-group">
+                    <label for="marca">Marca</label>
+                    <select class="form-control" id="marca">
+                        <option>Todas</option>
+                        <option>Toyota</option>
+                        <option>Ford</option>
+                        <option>Chevrolet</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="modelo">Modelo</label>
+                    <select class="form-control" id="modelo">
+                        <option>Todos</option>
+                        <option>Corolla</option>
+                        <option>Mustang</option>
+                        <option>Camaro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h5>Autos en Venta</h5>
+                <div class="row">
+                    <!-- Example car card -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">Toyota Corolla</div>
+                            <div class="card-body">
+                                <img src="assets/img/2018_Ford_Mustang_GT_5.0.jpg" class="card-img-top" alt="Toyota Corolla">
+                                <p class="card-text">Año: 2020</p>
+                                <p class="card-text">Precio: $20,000</p>
+                                <a href="#" class="btn btn-danger">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">Chevrolet Camaro ZL1</div>
+                            <div class="card-body">
+                                <img src="assets/img/hennessey-chevrolet-camaro-zl1-exorcist-final-edition.jpg" class="card-img-top" alt="Chevrolet Camaro ZL1">
+                                <p class="card-text">Año: 2022</p>
+                                <p class="card-text">Precio: $70,000</p>
+                                <a href="#" class="btn btn-danger">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for more cars -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Contacto</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Tu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span>&copy; 2024 Automotora Genérica. Todos los derechos reservados.</span>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#" class="text-white">Facebook</a> | 
+                    <a href="#" class="text-white">Twitter</a> | 
+                    <a href="#" class="text-white">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
